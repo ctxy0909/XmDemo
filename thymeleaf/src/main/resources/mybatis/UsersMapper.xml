@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.thymeleaf.demo.mapper.UsersMapper">
+
+
+
+	<select id="find"  resultType="com.thymeleaf.demo.domain.Users" parameterType="com.com.thymeleaf.demo.domain.Users">
+	<!--	select dhh,tclx from phone where del_flag = 'N'
+		<if test="dhh != null and dhh !=''">
+			and DHH like CONCAT('%',#{dhh},'%')
+		</if>
+		<if test="tclx != null and tclx !=''">
+			and tclx = #{tclx}
+		</if>
+		order by rand() limit 14-->
+	</select>
+
+
+
+
+
+</mapper>
